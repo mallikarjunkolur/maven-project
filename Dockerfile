@@ -1,3 +1,3 @@
 FROM tomcat
-COPY ./webapp.war /usr/local/tomcat/webapps/webapp/index.html
+COPY ./webapp.war /usr/local/tomcat/webapps
 ENTRYPOINT ["catalina.sh","run"]
